@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NarizApp</string>
+    <string name="action_settings">Config</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_search">Buscar</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="button_sync">Sincronizar Datos</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_peques">Pequeños</string>
+    <string name="nav_item_books">Libros</string>
+    <string name="nav_item_friends">Colaboradores</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_peques</item>
+        <item>@string/nav_item_books</item>
+        <item>@string/nav_item_friends</item>
+    </string-array>
+
+    <string name="title_home">Bienvenido!</string>
+    <string name="title_peques">Pequeños</string>
+    <string name="title_friends">Colaboradores</string>
+    <string name="title_books">Libros</string>
+
+    <string name="title_new_peque">Nuevo Pequeño</string>
+    <string name="title_upd_peque">Edita Pequeño</string>
+
+    <string name="nom">Nombre</string>
+    <string name="nomP">Paterno</string>
+    <string name="nomM">Materno</string>
+    <string name="mail">E mail</string>
+    <string name="cel">Telefono</string>
+    <string name="cumplea">Cumpleaños</string>
+    <string name="coment">Comentario</string>
+    <string name="button_online">Modo Online</string>
+</resources>

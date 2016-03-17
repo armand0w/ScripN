@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.nariz.narizapp.nariz" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/MyMaterialTheme"
+            android:name="com.nariz.narizapp.model.Global">
+        <activity
+                android:name="com.nariz.narizapp.activity.MainNarizActivity"
+                android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.nariz.narizapp.activity.AddPeques"
+                  android:label="@string/title_peques"
+                  android:parentActivityName="com.nariz.narizapp.activity.MainNarizActivity">
+        </activity>
+
+        <activity android:name="com.nariz.narizapp.activity.InfoPeque"
+                  android:label="@string/title_peques"
+                  android:parentActivityName="com.nariz.narizapp.activity.MainNarizActivity">
+        </activity>
+    </application>
+</manifest>

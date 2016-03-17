@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="com.nariz.narizapp.activity.HomeFragment">
+
+    <TextView
+            android:id="@+id/label"
+            android:layout_marginTop="51dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="45dp"
+            android:text="@string/title_home"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/button_online"
+            android:id="@+id/textView" android:layout_below="@+id/label" android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp"/>
+    <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_online"
+            android:id="@+id/btnOnline"
+            android:checked="false"
+            android:layout_marginTop="38dp" android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_sync"
+            android:id="@+id/btnSync"
+            android:layout_marginTop="70dp" android:layout_below="@+id/btnOnline"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
